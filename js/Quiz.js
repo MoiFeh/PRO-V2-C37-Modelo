@@ -51,10 +51,10 @@ class Quiz {
 
         // if (correctAns !== allContestants[plr].answer){
         //   fill("Green")
-        // }
-        // else{
-        //   fill("red");
-        // }
+       // }
+       //  else{
+       //    fill("red");
+       //  }
 
         // if (correctAns === allContestants[plr].answer){
         //   fill("Green")
@@ -70,12 +70,12 @@ class Quiz {
         //   fill("green");
         // }
 
-        // if (correctAns = allContestants[plr].answer){
-        //   fill("Green")
-        // }
-        // else{
-        //   fill("red");
-        // }
+         if (correctAns = allContestants[plr].answer){
+           fill("Green")
+         }
+         else{
+           fill("red");
+         }
 
         display_Answers+=30;
         textSize(20);
